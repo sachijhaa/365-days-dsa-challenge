@@ -31,8 +31,9 @@ public:
 };
 int main() {
     vector<vector<int>> grid = {
-        {0, 1},
-        {1, 0}
+        {0, 0, 0},
+        {1, 1, 0},
+        {1, 1, 0}
     };
     Solution obj;
     int ans = obj.shortestPathBinaryMatrix(grid);
